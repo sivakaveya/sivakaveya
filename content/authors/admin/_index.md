@@ -91,9 +91,6 @@ social:
     label: Follow me on Twitter
     display:
       header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://github.com/sivakaveya
   - icon: github
     icon_pack: fab
     link: https://github.com/sivakaveya

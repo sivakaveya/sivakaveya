@@ -8,9 +8,9 @@ sections:
   - block: hero
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
-      title: Hugo Academic Theme
+      title: sivakaveya
       image:
-        filename: hero-academic.png
+        filename: icon.jpeg
       cta:
         label: '**Get Started**'
         url: https://hugoblox.com/templates/
@@ -62,27 +62,46 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
+        - title: Teaching Assistant
+          company: University of California, San Diego
+          company_url: https://ucsd.edu/
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+          location: San Diego CA
+          date_start: '2024-01-01'
+          date_end: '2024-03-31'
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
+              * Taught SQL, relational data modeling and schema design, elements of query optimizations, normalization and architecture.
+              * Developed and evaluated assignments
+              * Provided guidance and support to 150+ students
+        - title: Teaching Assistant
+          company: Vidyalankar Polytechnic
+          company_url: https://vpt.edu.in/diploma/polytechnic/computer-engineering.html
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: Mumbai MH
+          date_start: '2023-03-01'
+          date_end: '2023-05-31'
+          description: |2-
+              Responsibilities include:
+
+              * Facilitated extensive practical sessions in C programming for 120+ hours of instruction
+              * Conducted live coding sessions covering extensive topics on control statements, functions, arrays, strings, pointer dynamic memory allocation, structures, unions, I/O operations and error handling.
+        - title: Data Analyst Intern
+          company: iAppSoft Solutions
+          company_url: https://www.iappsoftsolutions.com/
+          company_logo: org-ias
+          location: Hyderabad TS
+          date_start: '2021-10-01'
+          date_end: '2022-01-31'
+          description: |2-
+              Responsibilities include:
+
+              * Managed ETL pipelines using SQL queries and Python on AWS
+              * Delivered actionable insights using Tableau for inventory management
+              * Created a web application to display live inventory statistics
+
+              
     design:
       columns: '2'
   - block: accomplishments
